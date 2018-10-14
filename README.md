@@ -57,9 +57,6 @@ Now you should see the interface window show up. You can press "Play" to simulat
 
 **py_hanabi**: This package contains all the game simulation logic, agent logic, and all the supporting data structures for both.
 
-**py_hanabi/commands**: The Hanabi game is architectures with a CQRS design pattern. This means that all of the actions that can change the state of the game are implemented as a command (including drawing a card and switching player index). Each command must implement a `forward` and a `backward` function.
+**py_hanabi/commands**: The Hanabi game is architectures with a CQRS design pattern. This means that all of the actions that can change the state of the game are implemented as a command (including drawing a card and switching player index). Each command must implement a `forward` and a `back` function.
 
 **py_hanabi/interface**: This package contains the GUI view for the simulator.
-
-**java_agent**: This contains a Java implementation of the same agent.
-
